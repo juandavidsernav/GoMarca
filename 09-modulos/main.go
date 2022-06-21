@@ -12,6 +12,6 @@ func main() {
 	var nombre string
 	fmt.Scanln(&nombre)
 	fmt.Println(hola.ConNombre(nombre))
-	
+
 	analizador.PrintEstadistica(nombre)
 }

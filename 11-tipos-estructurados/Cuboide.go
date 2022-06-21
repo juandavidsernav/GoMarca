@@ -10,12 +10,10 @@ type Cuboide struct {
 
 func main() {
 	c := Cuboide{
-		Ancho: 2,
-		Alto: 3,
+		Ancho:    2,
+		Alto:     3,
 		Profundo: 2,
 	}
-
-	
 
 	fmt.Println("La altura del cuboide es", c.Alto)
 }

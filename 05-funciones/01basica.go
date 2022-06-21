@@ -14,7 +14,7 @@ func Max(a, b int) int {
 func main() {
 
 	m := Max(10, 7)
-	r := 10 + Max(10,7)
+	r := 10 + Max(10, 7)
 
 	fmt.Println(m)
 	fmt.Println(r)

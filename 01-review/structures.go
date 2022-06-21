@@ -8,22 +8,19 @@ algo similar.
 Golang no es orientado a objetos.
 */
 
-type Car struct{
-	Model int
-	Color string
-	Engine CarEngine
+type Car struct {
+	Model     int
+	Color     string
+	Engine    CarEngine
 	Insurance Insurance
 }
 
-type CarEngine struct{
+type CarEngine struct {
 	Version int
 }
 
-type Insurance interface{
-
+type Insurance interface {
 }
-
-
 
 func main() {
 

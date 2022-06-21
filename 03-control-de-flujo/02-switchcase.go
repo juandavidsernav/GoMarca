@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Println("La arquitectura de su computador es:")
 
-	switch arch{
+	switch arch {
 	case "386":
 		fmt.Println("x86 de 32 bits")
 	case "amd64":
@@ -23,7 +23,7 @@ func main() {
 
 	os := runtime.GOOS
 
-	switch os{
+	switch os {
 	case "darwin":
 		fmt.Println("Mac OS X")
 	case "linux":
@@ -33,6 +33,5 @@ func main() {
 	default:
 		fmt.Println(os)
 	}
-
 
 }
